@@ -1,39 +1,102 @@
-.App {
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* navbar component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(128, 21, 128);
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+li a:hover {
+  background-color: rgb(109, 154, 221);
+  transform: scale(1.3);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* zoo component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.backgroundZoo{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100vw;
+  height: 100vh;
+}
+
+.ZooTitle {
+  text-align: center;
+  text-shadow: 10;
+  font-family:  'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 1000;
+}
+
+.addAnimal{
+  font-size: smaller;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addBtn{
+  cursor: pointer;
+  transition: all .3s ease-in-out; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.addBtn:hover { 
+    transform: scale(1.3); 
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* about component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.About{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* contactus component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Contact{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* HopmePage component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.HopmePage{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                    /* Products component css */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Products{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
